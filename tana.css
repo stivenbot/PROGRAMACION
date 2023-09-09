@@ -117,7 +117,15 @@
     background-image: url(imagenes/mt15_prehome.jpg) ;
    background-color: rgba(0, 0, 0, 0); 
    background-blend-mode: color-burn ;
+   
 }
 .marco{
     padding: 10px;
+}
+.volver{
+    background:red;
+    width: 100px;
+    border-width: medium;
+    text-align: center;
+    
 }
