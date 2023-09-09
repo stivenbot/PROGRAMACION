@@ -9,30 +9,27 @@
 
 </head>
 
-<body class="fondo">
-    <img src="imagenes/ya.png" alt="">
-    <h2 class="titulo">registro de usuario</h2>
+<body>
+    <div class="fondo"></div>
+    <div class="encabezado">
+        <img src="imagenes/ya.png" alt="">
+        <h2 class="titulo">registro de usuario</h2>
 
-    <div class="volver">
-        <a href="index.html">voolver inicio</a>
-        <link rel="stylesheet" href="tana.css">
-        <br>
-        <a href="comprar.html"> ir ah comprar </a>
+        <div class="volver">
+            <a href="index.html">voolver inicio</a>
+            <br>
+            <a href="comprar.html"> ir ah comprar </a>
+        </div>
     </div>
-
-
-
-
-
     <form action="recibido.html" class="dos">
         <div class="marco">
-            <label for=" nombre"> nombre</label>
-            <input class="tana" id="nombre" name="nombre" type="text">
+            <label for="nombre"> nombre</label>
+            <input class="tana" id="nombre" required name="nombre" type="text">
         </div>
         <div class="marco">
 
             <label for="apellido">apellido</label>
-            <input class="tana" id="apellido" name="apellido" type="text">
+            <input class="tana" id="apellido" required name="apellido" type="text">
         </div>
 
         <label for="corr"></label>correo electronico</label>
@@ -40,10 +37,7 @@
         <br><br>
         <label for="cedula "> cedula</label>
         <input class="tana" id="cedula" name="cedula" type="text">
-        <div>
-            <h2 class="tipo">selecciona un tipo de documento</h2>
-
-        </div>
+        <h2 class="tipo">selecciona un tipo de documento</h2>
         <p>
         </p>
         <input id="cedula" name="tipo" value="cedula" type="radio">
