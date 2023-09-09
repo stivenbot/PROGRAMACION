@@ -1,0 +1,123 @@
+
+.tana {
+    border-radius: 10px;
+    border-color: red;
+    border-width: medium;
+    width: 200px;
+
+}
+
+.titulo {
+    background: rgb(255, 0, 0);
+    border-color: black;
+    width: 250px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.telefono {
+    border-radius: 10px;
+    border-color: red;
+    border-width: medium;
+    width: 200px;
+}
+
+.de {
+    border-radius: 10px;
+    border-color: red;
+    border-width: medium;
+    width: 200px;
+}
+
+.tipo {
+    background: gray;
+    border-color: grey;
+    width: 400px;
+    border-width: medium;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.fecha {
+    background: gray;
+    border-color: black;
+    width: 300px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.sexo {
+    background: red;
+    border-color: black;
+    width: 200px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.tel {
+    background: red;
+    border-color: black;
+    width: 200px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.sug {
+    background: gray;
+    border-color: black;
+    width: 300px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.tr {
+    border-radius: 10px;
+    border-color: gray;
+    border-width: medium;
+    width: 200px;
+}
+
+.volver {
+    text-align: center;
+}
+.fondo {
+ background-image:url(imagenes/fondo.jpg);
+ background-color: rgba(0, 0, 0, 0);
+ background-blend-mode: color-burn;
+ 
+}
+ .dos {
+    color: white;
+ }
+ .com{
+    background: red;
+    border-color: black;
+    width: 200px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+}
+.cata{
+    background: gray;
+    border-color: black;
+    width: 300px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;  
+}
+.fondo{
+    background-image: url(imagenes/mt15_prehome.jpg) ;
+   background-color: rgba(0, 0, 0, 0); 
+   background-blend-mode: color-burn ;
+}
+.marco{
+    padding: 10px;
+}
