@@ -44,6 +44,7 @@
     background: gray;
     border-color: black;
     width: 300px;
+    margin: auto;
     border-width: medium;
     border-radius: 20px;
     text-align: center;
@@ -64,6 +65,7 @@
     background: red;
     border-color: black;
     width: 200px;
+    margin: auto;
     border-width: medium;
     border-radius: 20px;
     text-align: center;
@@ -74,6 +76,7 @@
     background: gray;
     border-color: black;
     width: 300px;
+    margin:auto ;
     border-width: medium;
     border-radius: 20px;
     text-align: center;
@@ -87,12 +90,14 @@
 }
 
 .volver {
+    width: 100%;
     text-align: center;
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
 }
 .volver a {
+    margin:auto;
     color: white;
     font-size: large;
     padding: 6px;
@@ -153,10 +158,4 @@
 .marco{
     padding: 10px;
 }
-.volver{
-    background:red;
-    width: 100px;
-    border-width: medium;
-    text-align: center;
-    
-}
+
