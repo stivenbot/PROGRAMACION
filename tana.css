@@ -159,10 +159,16 @@
     padding: 10px;
 
 }
-.ir a{
+.letras{
+    width: 100%;
     text-align: center;
-    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
 }
+
+
+
   
 
 
