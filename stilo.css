@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #aa0d0d;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(73, 8, 8, 0.986);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #8b1a1a;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav button {
+    background-color: #0e0d0d;
+    color: white;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imagen {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100% del alto de la ventana */
+}
+
+.ir {
+    margin: auto;
+    color: white;
+    font-size: large;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.volver a{
+
+    margin:auto;
+    color: white;
+    font-size: large;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.cata { 
+    background: rgb(182, 22, 22);
+    border-color: black;
+    width: 300px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align-last: center;
+}
+
+.fondo {
+    background-image: url(imagenes/mt15_prehome.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+}
+.com{
+
+background-color: aliceblue;
+border-color: black;
+    width: 300px;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.centrar{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh; /* 100% del alto de la ventana */ 
+}
