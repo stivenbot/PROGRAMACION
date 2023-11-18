@@ -1,51 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .fondo {
-            background-image: url(imagenes/fondo.jpg);
-            background-color: rgba(43, 25, 25, 0.671);
-            background-blend-mode: color-burn;
-            background-repeat: no-repeat;
-            background-position: center top;
-            background-size: cover;
-            padding: 30px
-        }
-    </style>
-</head>
-
-<body class="fondo">
-    <img src="imagenes/ya.png" alt="">
-    <h2>contenido</h2>
-    <table>
-        <tr>
-            <th> lo mejor de yamaha</th>
-        </tr>
-    </table>
-   
-
-        <a style="margin:auto;
-        color: white;
-        font-size: large;
-        padding: 6px;
-        border-radius: 5px;
-        margin-bottom: 10px;
-        background-color: rgba(0, 0, 0, 0.5);" href="index.html"> ir a inicio</a><br>
-
-        <a style=" margin:auto;
-    color: white;
-    font-size: large;
-    padding: 6px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.5);" href="comprar.html">ir a comprar</a><br>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Página de Inicio</title>
+       
+        <link rel="stylesheet" href="stilo.css">
+        <img src="imagenes/ya.png" alt="">
+       
+    </head>
+    <body>
     
-
-</body>
-
-
-</html>
+        <header>
+            <h1>YAMAHA</h1>
+        </header>
+    
+        <section>
+            <h2>Bienvenido a yamaha</h2> 
+            <p>Tu tienda en línea para encontrar la moto perfecta.</p>
+            
+        </section>
+        <nav>
+            <button onclick="location.href='index.html'">ir a contenido</button>
+            <button onclick="location.href='comprar.html'">ir a comprar</button>
+            <div class="card">
+                <img src="imagenes/primera.jpeg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">YAMAHA R6</h5>
+                  <p class="card-text"> conoce mas sobre esta moto</p>
+                  <a href="yamahar6.html" class="ir">IR</a>
+                </div>
+              </div>
+              
+              <div class="card" aria-hidden="true">
+                <br>
+                <img src="imagenes/ya.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title placeholder-glow">
+                    <span class="placeholder col-6"></span>
+                  </h5>
+                  <p class="card-text placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-6"></span>
+                    <span class="placeholder col-8"></span>
+                  </p>
+                  <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+                </div>
+              </div>
+            
+        </nav>
+        <h2 >Nuestros Servicios</h2>
+        <ul >
+            <li>Reparación y mantenimiento de motos </li>
+            <br>
+            
+            <li>Venta de repuestos y accesorios</li>
+            <br>
+            <li>Financiamiento disponible</li>
+        </ul>
+        
+        
+        <div class="imagen">
+  
+            <img src="imagenes/fz25_azul2.jpg" alt="">
+        </div>
+    
+        <footer>
+            <p>© 2023  Página de Inicio</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    

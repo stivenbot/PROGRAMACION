@@ -157,7 +157,20 @@
 }
 .marco{
     padding: 10px;
+
 }
+.letras{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+
+
+  
+
 
 .tanin{
     text-align: center;
