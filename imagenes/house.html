@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wall {
+            background-color: red;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+
+        }
+
+        .door {
+            position: absolute;
+            bottom: 0;
+            left: 60px;
+            width: 120px;
+            border: 4px solid black;
+            background-color: rgb(82, 9, 9);
+            height: 200px;
+            width: 120px;
+            background-color: blue;
+            transform-origin: left;
+            transition: trasform 0.45s;
+
+        }
+        .open{
+            transform: perspective(1200px)rotateY(45deg);
+        }
+
+        .window {
+            display: grid;
+            grid-template-columns: 62px 62px;
+            position: absolute;
+            height: 120px;
+            top: 200px;
+            right:60px ;
+            width: 120px;
+            border: 2px solid red;
+        }
+
+        .shape {
+            position: absolute;
+            height: 15px;
+            width: 15px;
+            border-radius: 4px;
+            background-color: rgb(99, 16, 231);
+
+        }
+        .glas{
+            margin: auto;
+            width: 60px;
+            height: 60px;
+            border: 1px solid black;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="wall" class="wall">
+        <div class="door">
+            <div class="shape"></div>
+            <div class="open"></div>
+        </div>
+
+        <div class="window"> 
+            <div class="glas"></div>
+            <div class="glas"></div>
+            <div class="glas"></div>
+            <div class="glas"></div>
+        </div>
+        
+        
+    </div>
+
+
+</body>
+
+</html>

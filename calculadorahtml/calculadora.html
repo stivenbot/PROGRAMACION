@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .sumar{
+ 
+ background-color: #9932CC;
+ color: #FFF;
+ margin: 20px;
+ padding: 20px;
+ 
+}
+
+
+    
+    </style>
+</head>
+<body>
+</p><p> calculadora</p>
+<p> numero 1 <input id="n1" type="numbre"></p>
+<p> numero 2 <input  id="n2" type="number"></p>
+<p> numero 3 <input  id="n3" type="number"></p>
+<P>RESULTADO <input id="result" type="number"></P>
+<button  class="sumar" id="sumar"onclick="calcular(1)"> + </button>
+<button class="sumar" id="restatr" onclick="calcular(2)"> - </button>
+<button class="sumar" id="sumar" onclick="calcular(3)"> /</button>
+<button class="sumar" id="sumar" onclick="calcular(4)"> X </button>
+<button class="sumar" id="sumar" onclick="limpiar()"> borrar </button>
+
+    <script>
+        function  calcular( tipo) {
+  var n1 = document.getElementById("n1").value;
+  if (!n1) return alert("ingresa el numero 1");
+  var n2 = document.getElementById("n2").value;
+  if (!n2) return alert("ingresa el numero 2");
+    var n3 = document.getElementById("n3").value;
+  if (!n3) return alert("ingresa el numero 3");
+ n1 = parseInt(n1);
+  n2 = parseInt(n2);
+   n3 = parseInt(n3);
+var resultado ;
+  if(tipo== 1) resultado = n1 + n2 + n3
+   if(tipo== 2) resultado = n1 - n2 - n3
+   if(tipo== 3) resultado = n1 / n2 / n3
+   if(tipo== 4) resultado = n1 * n2 * n3
+  document.getElementById("result").value = resultado
+}
+function limpiar(){
+  document.getElementById("n1"). value ="";
+  document.getElementById("n2"). value ="";
+   document.getElementById("n3"). value ="";
+ document.getElementById("result"). value = "";
+}
+    </script>
+</body>
+</html>
+ 

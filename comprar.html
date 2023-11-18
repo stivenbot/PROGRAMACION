@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>comprar</title>
+    <link rel="stylesheet" href="stilo.css">
     </head>
     
     <body class="fondo">
     
         <img src="imagenes/ya.png" alt="">
-        <hr>
-        <h1 class="com">comprar</h1>
+        
+        
+    </div>
+        <h1  class="com">comprar</h1>
         <h2 class="cata">catalogo</h2>
-        <hr>
+        
         <div class="volver a">
 
-            <a href="index.html"> volver</a>
-            <a href="formulario.html"> ir al formulario</a>
+            <a href="contenido.html"> volver</a>
+            <a  href="formulario.html"> ir al formulario</a>
         </div>
         
             
@@ -26,10 +29,10 @@
     
     
         <br><br>
-        <a href="yamahadt100.html">
+        <a class="" href="yamahadt100.html">
             <img src="imagenes/dt.jpeg" alt="">
         </a>
-        <a href="yamaha rx.html">
+        <a class="centrar" href="yamaharx.html">
             <img src="imagenes/descarga.jpeg" alt="">
         </a>
     
@@ -54,13 +57,13 @@
     
         
 
-        .cata {
-            background: gray;
+        .cata { 
+            background: rgb(182, 22, 22);
             border-color: black;
             width: 300px;
             border-width: medium;
             border-radius: 20px;
-            text-align: center;
+            text-align-last: center;
         }
 
         .fondo {
@@ -74,5 +77,20 @@
             position: fixed;
             z-index: -2;
         }
-   
+   .com{
+    
+    background-color: aliceblue;
+    border-color: black;
+            width: 300px;
+            border-width: medium;
+            border-radius: 20px;
+            text-align: center;
+        
+   }
+   .centrar{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 0vh; /* 100% del alto de la ventana */ 
+   }
     </style>
