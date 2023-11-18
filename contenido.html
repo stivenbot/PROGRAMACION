@@ -1,41 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .fondo{
-            background-image: url(imagenes/fondo.jpg);
-            background-color: rgba(0, 0, 0, 0.671);
-            background-blend-mode:color-burn ;
-            background-repeat: no-repeat;
-            background-position: center top;
-            background-size: cover;
-            padding: 30px
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Página de Inicio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+    
+            header {
+                background-color: #aa0d0d;
+                color: #fff;
+                text-align: center;
+                padding: 1em;
+            }
+    
+            section {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 1em;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-    </style>
-</head>
 
-<body class="fondo">
-    <img src="imagenes/ya.png" alt="">
-    <h2>contenido</h2>
-    <table>
-        <tr>
-            <th>vacio</th>
-        </tr>
-    </table>
+        nav {
+            background-color: #8b1a1a;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
 
-   
-        <body class=" letras">
+        nav button {
+            background-color: #0e0d0d;
+            color: white;
+            padding: 0.5em 1em;
+            margin: 0.5em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .imagen{
             
-            <a href="index.html"> ir a inicio</a><br>
-            <a href="comprar.html">ir a comprar</a><br>
-        </body>
-        
-   
-</body>
+        }
+        </style>
+    </head>
+    <body>
+    
+        <header>
+            <h1>YAMAHA</h1>
+        </header>
+    
+        <section>
+            <h2>Bienvenido a yamaha</h2> 
+            
+        </section>
+        <nav>
+            <button onclick="location.href='index.html'">ir a contenido</button>
+            <button onclick="location.href='comprar.html'">ir a comprar</button>
+            
+        </nav>
+        <div class="imagen">
 
-
-</html>
+            <img src="imagenes/fondo.jpg" alt="">
+        </div>
+    
+        <footer>
+            <p>© 2023  Página de Inicio</p>
+        </footer>
+    
+    </body>
+    </html>
+    
